@@ -28,3 +28,40 @@
 .quote p {
     text-align: left;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+#anneFeedbackform2 {
+    width: 100%; 
+}
+
+.form-group textarea {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.btn {
+    width: 100%; }
+
+#anneFeedbackForm img[alt="a cozy reading gif"] {
+        width: 50%; 
+        height: 50%;
+        margin-left: 25%;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+.col-5 > div > ul >li::before {
+    content: '\2022'; 
+    color: blue; 
+    font-size: 20px;
+    left: 10%;
+} 
