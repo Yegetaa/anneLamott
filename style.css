@@ -1,0 +1,30 @@
+/* Navigation Bar Styling */
+.navbar-nav .nav-item:nth-child(1) .nav-link,
+.navbar-nav .nav-item:nth-child(2) .nav-link,
+.navbar-nav .nav-item:nth-child(3) .nav-link {
+    color: black; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+#navigationBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around; 
+    width: 110%; 
+}
+
+.navbar-nav .nav-item {
+    text-align: center;
+}
+
+.quote p {
+    text-align: left;
+}
